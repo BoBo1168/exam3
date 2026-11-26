@@ -1,9 +1,10 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: DM sans;
+    font-family: Roboto;
 }
 header{
+    font-family: DM sans;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -12,9 +13,23 @@ header{
     height: 119px;
 }
 .btn1{
-  padding: 15px 20px;
+  padding: 17px 22px;
   background-color: #FF9C08;
   color: black;
   border-radius: 10px;
   border: none;  
+}
+.sec1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1220px;
+    margin: auto
+}
+.btn2{
+    padding: 14px 19px;
+    border-color: #F0ECE8;
+    background-color: #FFFFFF;
+    font-weight: 600;
+
 }
