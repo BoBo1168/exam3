@@ -83,6 +83,7 @@ header{
     margin: 150px auto;
     background-color: white;
     padding-bottom: 180px;
+    border-bottom: 2px solid gray;
 }
 
 .q3{
@@ -105,7 +106,41 @@ header{
     height: 685px;
     position: relative;
 }
-.sec4-description p {
+.sec5 {
+    width: 100%;
+    max-width: 1220px;
+    margin: auto;
+    padding: 0 25px;
+}
+.sec5-q1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 55px;
+}
+.sec5-boxx{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+}
+
+.sec5-box{
+    height: 445px;
+    border: 1px solid #F0ECE8;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.sec5-card h3 {
+    font-size: 21px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.sec5-card p {
     font-size: 16px;
     color: #6E6E6E;
     line-height: 25px;
