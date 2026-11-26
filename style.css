@@ -111,6 +111,7 @@ header{
     max-width: 1220px;
     margin: auto;
     padding: 0 25px;
+    margin-bottom: 150px;
 }
 .sec5-q1{
     display: flex;
@@ -144,4 +145,46 @@ header{
     font-size: 16px;
     color: #6E6E6E;
     line-height: 25px;
+}
+
+
+.sec6 {
+    background-color: #FEF9F2;
+    max-width: 1400px;
+    margin: auto;
+    padding: 150px 0 180px;
+}
+.sec6-q1{
+    max-width: 1220px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+.zq6 {
+    position: relative;
+    width: 50%;
+}
+.zq6 img {
+    width: 100%;
+    max-width: 530px;
+    border-radius: 16px;
+    display: block;
+}
+.sec6-card {
+    position: absolute;
+    bottom: -45px;
+    right: 10px;
+    background-color: #FFFFFF;
+    padding: 35px 40px;
+    border-radius: 14px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+    border: 1px solid #F0ECE8;
+}
+.zqq6 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
 }
